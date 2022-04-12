@@ -1,0 +1,49 @@
+
+  E-Business Suite Environment Information
+  ----------------------------------------
+  RUN File System           : /oracle/app/TEST/fs1/EBSapps/appl
+  PATCH File System         : /oracle/app/TEST/fs2/EBSapps/appl
+  Non-Editioned File System : /oracle/app/TEST/fs_ne
+
+
+  DB Host: cllitc40-scan.colruyt.int  Service/SID: OPD1TC20
+
+
+  Sourcing the RUN File System ...
+
+
+CLASSPATH=/oracle/app/TEST/fs1/FMW_Home/patch_wls1036/profiles/default/sys_manifest_classpath/weblogic_patch.jar:/oracle/app/TEST/fs1/EBSapps/comn/util/jdk64/lib/tools.jar:/oracle/app/TEST/fs1/FMW_Home/wlserver_10.3/server/lib/weblogic_sp.jar:/oracle/app/TEST/fs1/FMW_Home/wlserver_10.3/server/lib/weblogic.jar:/oracle/app/TEST/fs1/FMW_Home/modules/features/weblogic.server.modules_10.3.6.0.jar:/oracle/app/TEST/fs1/FMW_Home/wlserver_10.3/server/lib/webservices.jar:/oracle/app/TEST/fs1/FMW_Home/modules/org.apache.ant_1.7.1/lib/ant-all.jar:/oracle/app/TEST/fs1/FMW_Home/modules/net.sf.antcontrib_1.1.0.0_1-0b2/lib/ant-contrib.jar:/oracle/app/TEST/fs1/EBSapps/comn/util/jdk32/lib/dt.jar:/oracle/app/TEST/fs1/EBSapps/comn/util/jdk32/lib/tools.jar:/oracle/app/TEST/fs1/EBSapps/comn/util/jdk32/jre/lib/rt.jar:/oracle/app/TEST/fs1/EBSapps/comn/shared-libs/ebs-3rdparty/WEB-INF/lib/ebs3rdpartyManifest.jar:/oracle/app/TEST/fs1/FMW_Home/Oracle_EBS-app1/shared-libs/ebs-fmw/WEB-INF/lib/ebsFMWManifest.jar:/oracle/app/TEST/fs1/FMW_Home/Oracle_EBS-app1/shared-libs/ebs-appsborg/WEB-INF/lib/ebsAppsborgManifest.jar:/oracle/app/TEST/fs1/FMW_Home/oracle_common/modules/oracle.uix_11.1.1/uix2.jar:/oracle/app/TEST/fs1/EBSapps/comn/java/classes:/oracle/app/TEST/fs1/EBSapps/10.1.2/forms/java:/oracle/app/TEST/fs1/EBSapps/10.1.2/forms/java/frmall.jar:/oracle/app/TEST/fs1/EBSapps/10.1.2/jlib/ewt3.jar:/oracle/app/TEST/fs1/EBSapps/10.1.2/j2ee/OC4J_BI_Forms/applications/formsapp/formsweb/WEB-INF/lib/frmsrv.jar:/oracle/app/TEST/fs1/FMW_Home/oracle_common/modules/oracle.jrf_11.1.1/jrf-wlstman.jar:/oracle/app/TEST/fs1/FMW_Home/oracle_common/common/wlst/lib/adfscripting.jar:/oracle/app/TEST/fs1/FMW_Home/oracle_common/common/wlst/lib/adf-share-mbeans-wlst.jar:/oracle/app/TEST/fs1/FMW_Home/oracle_common/common/wlst/lib/mdswlst.jar:/oracle/app/TEST/fs1/FMW_Home/oracle_common/common/wlst/resources/auditwlst.jar:/oracle/app/TEST/fs1/FMW_Home/oracle_common/common/wlst/resources/igfwlsthelp.jar:/oracle/app/TEST/fs1/FMW_Home/oracle_common/common/wlst/resources/jps-wlst.jar:/oracle/app/TEST/fs1/FMW_Home/oracle_common/common/wlst/resources/jps-wls-trustprovider.jar:/oracle/app/TEST/fs1/FMW_Home/oracle_common/common/wlst/resources/jrf-wlst.jar:/oracle/app/TEST/fs1/FMW_Home/oracle_common/common/wlst/resources/oamap_help.jar:/oracle/app/TEST/fs1/FMW_Home/oracle_common/common/wlst/resources/oamAuthnProvider.jar:/oracle/app/TEST/fs1/FMW_Home/oracle_common/common/wlst/resources/ossoiap_help.jar:/oracle/app/TEST/fs1/FMW_Home/oracle_common/common/wlst/resources/ossoiap.jar:/oracle/app/TEST/fs1/FMW_Home/oracle_common/common/wlst/resources/ovdwlsthelp.jar:/oracle/app/TEST/fs1/FMW_Home/oracle_common/common/wlst/resources/sslconfigwlst.jar:/oracle/app/TEST/fs1/FMW_Home/oracle_common/common/wlst/resources/wsm-wlst.jar:/oracle/app/TEST/fs1/FMW_Home/utils/config/10.3/config-launch.jar::/oracle/app/TEST/fs1/FMW_Home/wlserver_10.3/common/derby/lib/derbynet.jar:/oracle/app/TEST/fs1/FMW_Home/wlserver_10.3/common/derby/lib/derbyclient.jar:/oracle/app/TEST/fs1/FMW_Home/wlserver_10.3/common/derby/lib/derbytools.jar::
+
+Initializing WebLogic Scripting Tool (WLST) ...
+
+Welcome to WebLogic Server Administration Scripting Shell
+
+Type help() for help on available commands
+
+Connecting to t3://svlitcja.colruyt.int:7001 with userid weblogic ...
+Successfully connected to Admin Server 'AdminServer' that belongs to domain 'EBS_domain'.
+
+Warning: An insecure protocol was used to connect to the
+server. To ensure on-the-wire security, the SSL port or
+Admin port should be used instead.
+
+Location changed to domainRuntime tree. This is a read-only tree with DomainMBean as the root.
+For more help, use help(domainRuntime)
+
+################################################################
+# Java heap information per server
+################################################################
+              Server    Current     Free      Max Free
+      oacore_server2    1016 MB   409 MB  1016 MB  40%
+        oafm_server1    1017 MB   187 MB  1017 MB  18%
+         AdminServer     992 MB   185 MB   992 MB  18%
+       forms_server1    1018 MB   544 MB  1018 MB  53%
+        oafm_server2    1016 MB   550 MB  1016 MB  54%
+      oacore_server1    1016 MB   438 MB  1016 MB  43%
+       forms_server2    1018 MB   711 MB  1018 MB  69%
+        oaea_server2    1023 MB   820 MB  1023 MB  80%
+        oaea_server1    1023 MB   607 MB  1023 MB  59%
+Disconnected from weblogic server: AdminServer
+
+
+Exiting WebLogic Scripting Tool.
